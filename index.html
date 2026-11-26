@@ -15,112 +15,103 @@
             <img src="img/Arboleda.png" alt="Logo Supermercado La Arboleda" width="140" />
         </a>
 
-        <nav aria-label="Navegación principal">
-            <a href="index.html">Inicio</a>
-            <a href="catalogoProd.html">Catalogo</a>
-            <a href="conozcanos.html">Mision</a>
-            <!DOCTYPE html>
-<html lang="es">
+        <!DOCTYPE html>
+        <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supermercado Arboleda - Inicio</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <script src="js/formulario.js" defer></script>
-</head>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Supermercado Arboleda - Inicio</title>
+            <link rel="stylesheet" href="css/styles.css" />
+            <script src="js/formulario.js" defer></script>
+        </head>
 
-<body>
-    <header>
-        <a href="index.html" class="logo">
-            <img src="img/Arboleda.png" alt="Logo Supermercado La Arboleda" width="140" />
-        </a>
+        <body>
 
-        <nav aria-label="Navegación principal">
-            <a href="index.html">Inicio</a>
-            <a href="catalogoProd.html">Catalogo</a>
-            <a href="conozcanos.html">Misión</a>
-            <a href="conozcanos.html">Visión</a>
-            <a href="conozcanos.html">Politicas</a>
-        </nav>
+            <nav aria-label="Navegación principal">
+                <a href="index.html">Inicio</a>
+                <a href="catalogoProd.html">Catalogo</a>
+                <a href="conozcanos.html">Misión</a>
+                <a href="conozcanos.html">Visión</a>
+                <a href="conozcanos.html">Politicas</a>
+            </nav>
     </header>
     <main>
-            <a href="conozcanos.html">Politicas</a>
-        </nav>
-    </header>
-    <main>
-        <section id="Bienvenida">
-            <h1>Bienvenido al Supermercado La Arboleda</h1>
-            <p>Aqui usted encuentra productos frescos,abarrotes y todo lo que su hogar necesita</p>
-        </section>
-        <section id="formulario-arboleda" class="seccion-formulario">
-            <h2>Realiza tu pedido o consulta - Supermercado La Arboleda</h2>
-            <p>Completa tus datos y nos comunicaremos contigo para confirmar tu solicitud.</p>
 
-            <form id="form-pedido" action="#" method="post">
+        </header>
+        <main>
+            <section id="Bienvenida">
+                <h1>Bienvenido al Supermercado La Arboleda</h1>
+                <p>Aqui usted encuentra productos frescos,abarrotes y todo lo que su hogar necesita</p>
+            </section>
+            <section id="formulario-arboleda" class="seccion-formulario">
+                <h2>Realiza tu pedido o consulta - Supermercado La Arboleda</h2>
+                <p>Completa tus datos y nos comunicaremos contigo para confirmar tu solicitud.</p>
+
+                <form id="form-pedido" action="#" method="post">
+                    <div>
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej. Ana María Gómez" required>
+                    </div>
+
+                    <div>
+                        <label for="telefono">Teléfono / WhatsApp:</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Ej. +57 300 000 0000" required>
+                    </div>
+
+                    <div>
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" placeholder="Ej. cliente@correo.com" required>
+                    </div>
+
+                    <div>
+                        <label for="direccion">Dirección de entrega (Bogotá):</label>
+                        <input type="text" id="direccion" name="direccion"
+                            placeholder="Ej. Calle 80 # 69 - 20, Barrio Las Ferias">
+                    </div>
+
+                    <div>
+                        <label for="tipo-solicitud">Tipo de solicitud:</label>
+                        <select id="tipo-solicitud" name="tipo_solicitud" required>
+                            <option value="">Selecciona una opción...</option>
+                            <option value="pedido">Pedido a domicilio</option>
+                            <option value="cotizacion">Cotización de productos</option>
+                            <option value="sugerencia">Duda, queja o sugerencia</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="mensaje">Detalle del pedido o mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4"
+                            placeholder="Escribe los productos que deseas o tu consulta..." required></textarea>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="checkbox" id="acepto-politicas" name="acepto_politicas" required>
+                            Acepto las políticas de tratamiento de datos y términos del servicio de Supermercado La
+                            Arboleda.
+                        </label>
+                    </div>
+
+                    <button type="submit">Enviar solicitud</button>
+                </form>
+            </section>
+
+            <footer>
                 <div>
-                    <label for="nombre">Nombre completo:</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Ana María Gómez" required>
+                    <h4>Contacto y Horarios</h4>
+                    <p>Dirección: Avenida Calle 80 # 69 - 20, Barrio las ferias, Bogotá, D.C.</p>
+                    <p>Teléfono / WhatsApp: +57 300 000 0000</p>
+                    <p>correo: mercadosArboleda@gmail.com</p>
+                    <p>Lunes a domingo: 7:00 a. m. – 9:00 p. m.</p>
                 </div>
 
-                <div>
-                    <label for="telefono">Teléfono / WhatsApp:</label>
-                    <input type="tel" id="telefono" name="telefono" placeholder="Ej. +57 300 000 0000" required>
-                </div>
-
-                <div>
-                    <label for="correo">Correo electrónico:</label>
-                    <input type="email" id="correo" name="correo" placeholder="Ej. cliente@correo.com" required>
-                </div>
-
-                <div>
-                    <label for="direccion">Dirección de entrega (Bogotá):</label>
-                    <input type="text" id="direccion" name="direccion"
-                        placeholder="Ej. Calle 80 # 69 - 20, Barrio Las Ferias">
-                </div>
-
-                <div>
-                    <label for="tipo-solicitud">Tipo de solicitud:</label>
-                    <select id="tipo-solicitud" name="tipo_solicitud" required>
-                        <option value="">Selecciona una opción...</option>
-                        <option value="pedido">Pedido a domicilio</option>
-                        <option value="cotizacion">Cotización de productos</option>
-                        <option value="sugerencia">Duda, queja o sugerencia</option>
-                    </select>
-                </div>
-
-                <div>
-                    <label for="mensaje">Detalle del pedido o mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" rows="4"
-                        placeholder="Escribe los productos que deseas o tu consulta..." required></textarea>
-                </div>
-
-                <div>
-                    <label>
-                        <input type="checkbox" id="acepto-politicas" name="acepto_politicas" required>
-                        Acepto las políticas de tratamiento de datos y términos del servicio de Supermercado La
-                        Arboleda.
-                    </label>
-                </div>
-
-                <button type="submit">Enviar solicitud</button>
-            </form>
-        </section>
-
-        <footer>
-            <div>
-                <h4>Contacto y Horarios</h4>
-                <p>Dirección: Avenida Calle 80 # 69 - 20, Barrio las ferias, Bogotá, D.C.</p>
-                <p>Teléfono / WhatsApp: +57 300 000 0000</p>
-                <p>correo: mercadosArboleda@gmail.com</p>
-                <p>Lunes a domingo: 7:00 a. m. – 9:00 p. m.</p>
-            </div>
-
-            <p> 2026 Supermercado La Arboleda. Todos los derechos reservados.</p>
+                <p> 2026 Supermercado La Arboleda. Todos los derechos reservados.</p>
 
 
-    </main>
-    </footer>
+        </main>
+        </footer>
 </body>
 
 </html>
