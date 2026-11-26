@@ -101,7 +101,7 @@ const productos = {
         descripcion: 'Atún lomitos en agua 160g',
         img: 'img/atun.jpg'
     },
-    p018: {
+p018: {                     
         nombre: 'Mantequilla',
         precio: 4900,
         descripcion: 'Esparcible de mantequilla 250g',
