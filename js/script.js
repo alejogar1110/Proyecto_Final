@@ -57,67 +57,67 @@ const productos = {
         nombre: 'Huevos',
         precio: 6500,
         descripcion: 'Huevos rojos tipo AA x 12 unidades',
-        img: 'img/huevos-docena.jpg'
+        img: 'img/huevos.jpg'
     },
     p011: {
         nombre: 'Café',
         precio: 9800,
         descripcion: 'Café molido tradicional 250g',
-        img: 'img/cafe-molido.jpg'
+        img: 'img/cafe aguila roja.jpg'
     },
     p012: {
         nombre: 'Pasta',
         precio: 3200,
         descripcion: 'Pasta espagueti 500g',
-        img: 'img/pasta-espagueti.jpg'
+        img: 'img/spaguety doria.jpg'
     },
     p013: {
         nombre: 'Fríjol',
         precio: 4600,
         descripcion: 'Fríjol rojo cargamanto 500g',
-        img: 'img/frijol-rojo.jpg'
+        img: 'img/frijol maritza.jpg' 
     },
     p014: {
         nombre: 'Chocolate',
         precio: 5400,
         descripcion: 'Chocolate de mesa tradicional 250g',
-        img: 'img/chocolate-barra.jpg'
+        img: 'img/chocolate corona.jpg'
     },
     p015: {
         nombre: 'Detergente',
         precio: 11500,
         descripcion: 'Detergente líquido para ropa 1L',
-        img: 'img/detergente-liquido.jpg'
+        img: 'img/detergente.jpg'
     },
     p016: {
         nombre: 'Sal',
         precio: 1800,
         descripcion: 'Sal refinada de mesa 1kg',
-        img: 'img/sal-refisal.jpg'
+        img: 'img/sal refisal.jpg'
     },
     p017: {
         nombre: 'Atún',
         precio: 5200,
         descripcion: 'Atún lomitos en agua 160g',
-        img: 'img/atun-lata.jpg'
+        img: 'img/atun.jpg'
     },
     p018: {
         nombre: 'Mantequilla',
         precio: 4900,
         descripcion: 'Esparcible de mantequilla 250g',
-        img: 'img/mantequilla-esparcir.jpg'
+        img: 'img/mantequilla.jpg'
     },
     p019: {
         nombre: 'Jabón de baño',
         precio: 3100,
         descripcion: 'Jabón en barra cuidado diario 110g',
-        img: 'img/jabon-bano.jpg'
+        img: 'img/jabon jhonson.jpg'
     },
     p020: {
         nombre: 'Papel higiénico',
         precio: 7500,
         descripcion: 'Papel higiénico doble hoja x 4 rollos',
-        img: 'img/papel-higienico.jpg'
+        img: 'img/papel-higienico-scott.jpg'
     }
 };
 
