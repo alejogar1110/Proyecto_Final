@@ -84,12 +84,103 @@ h1 {
 }
 
 .seccion-formulario {
-  background-color: #6AC50B;
-  margin: 10px 200px;
-  padding: 20px;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-  border-radius: 10px;
-  border: 2px solid black;
+    background-color: #6AC50B;
+    padding: 25px;
+    margin: 30px auto;
+    border: 2px solid #054006;
+    border-radius: 14px;
+    text-align: center;
+    max-width: 900px;
+}
+
+.seccion-formulario h2 {
+    color: #054006;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.seccion-formulario p {
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#form-pedido {
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+#form-pedido > div {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#form-pedido label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: #054006;
+    font-weight: 500;
+}
+
+#form-pedido input:not([type="checkbox"]),
+#form-pedido select,
+#form-pedido textarea {
+    padding: 9px 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    outline: none;
+    transition: 0.2s;
+}
+
+#form-pedido input:focus,
+#form-pedido select:focus,
+#form-pedido textarea:focus {
+    border-color: #239E07;
+    box-shadow: 0 0 0 3px rgba(35, 158, 7, 0.15);
+}
+
+#form-pedido textarea {
+    resize: vertical;
+    min-height: 90px;
+}
+
+#form-pedido > div:has(#acepto-politicas) {
+    max-width: 100%;
+    margin-top: 5px;
+}
+
+#acepto-politicas {
+    accent-color: #239E07;
+}
+
+#enviar {
+    background-color: #239E07;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 28px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#enviar:hover {
+    background-color: #054006;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(5, 64, 6, 0.2);
 }
