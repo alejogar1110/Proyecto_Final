@@ -225,10 +225,9 @@ h3 {
 }
 
 #enviar:hover {
-    background-color: #054006;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(5, 64, 6, 0.2);
-=======
+  background-color: #054006;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(5, 64, 6, 0.2);
   background-color: #6AC50B;
   margin: 10px 200px;
   padding: 20px;
