@@ -75,7 +75,7 @@ const productos = {
         nombre: 'Fríjol',
         precio: 4600,
         descripcion: 'Fríjol rojo cargamanto 500g',
-        img: 'img/frijol maritza.jpg' 
+        img: 'img/frijol maritza.jpg'
     },
     p014: {
         nombre: 'Chocolate',
@@ -101,7 +101,7 @@ const productos = {
         descripcion: 'Atún lomitos en agua 160g',
         img: 'img/atun.jpg'
     },
-p018: {                     
+    p018: {
         nombre: 'Mantequilla',
         precio: 4900,
         descripcion: 'Esparcible de mantequilla 250g',
