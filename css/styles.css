@@ -4,6 +4,13 @@
     text-align: center;
     border-radius: 10px;
 }
+
+#logo{
+  width: 250px;
+  height: auto;
+
+}
+
 .menu{
     display: flex;
     justify-content: center;
@@ -121,10 +128,10 @@ h3 {
   padding: 3px 6px;
   border: 1.5px solid black;
   background-color: lightgray;
+  border-radius: 2px;
 }
 
 .seccion-formulario {
-<<<<<<< HEAD
     background-color: #6AC50B;
     padding: 25px;
     margin: 30px auto;
@@ -172,6 +179,7 @@ h3 {
     font-size: 13px;
     color: #054006;
     font-weight: 500;
+    border-radius: 10px;
 }
 
 #form-pedido input:not([type="checkbox"]),
@@ -201,10 +209,6 @@ h3 {
 #form-pedido > div:has(#acepto-politicas) {
     max-width: 100%;
     margin-top: 5px;
-}
-
-#acepto-politicas {
-    accent-color: #239E07;
 }
 
 #enviar {
@@ -373,5 +377,4 @@ body {
 #carrito {
   width: 100%;
   max-width: 420px;
->>>>>>> b78ab4a9631cc1f173da3f8999b20c1168dbbd7a
 }
